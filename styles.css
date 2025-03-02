@@ -10,6 +10,14 @@ body, html
    background: #f9f9f9;
    color: #111;
 }
+
+.wrapper{
+	overflow: auto;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+}
 .audio{
 	margin: auto;
 	display: block;
@@ -26,17 +34,11 @@ audio::-webkit-media-controls-play-button {
 audio::-webkit-media-controls-timeline {
     height: 10px;
 }
-.wrapper
-{
-   width: 100%;
-   height: 100%;
-   display: table;
-}
+
  
 .main
 {
    display: table-cell;
-   vertical-align: middle;
    text-align: center;
 }
  
@@ -45,7 +47,7 @@ audio::-webkit-media-controls-timeline {
 {
    font-size: 20pt;
    margin: 10px;
-   margin-bottom: 50px;
+   margin-bottom: 20px;
 }
  
 .head__content
